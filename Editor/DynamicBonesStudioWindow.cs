@@ -100,7 +100,7 @@ public class DynamicBonesStudioWindow : EditorWindow
 
     void OnEnable()
     {
-        _cfgFilePath = Application.dataPath + "/Kaori/DynamicBonesStudio/Editor/DynamicBonesPresets.txt";
+        _cfgFilePath = Application.dataPath + "/DynamicBonesStudio-master/Editor/DynamicBonesPresets.txt";
     }
 
     void OnInspectorUpdate()
